@@ -1,0 +1,16 @@
+{
+  "objects": [
+    {
+      "objectType": "index",
+      "fullName": "\"public\".\"idx_unq_rental_rental_date_inventory_id_customer_id\"",
+      "table": "\"public\".\"rental\"",
+      "type": "btree",
+      "columns": [
+        "\"customer_id\"",
+        "\"inventory_id\"",
+        "\"rental_date\""
+      ],
+      "isUnique": "True"
+    }
+  ]
+}

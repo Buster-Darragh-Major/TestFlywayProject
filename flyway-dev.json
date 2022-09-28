@@ -1,0 +1,34 @@
+{
+  "version": "2.0",
+  "name": "pagila",
+  "id": "c926e11a-b344-4691-a6b5-6af3b3d9bab5",
+  "databaseType": "PostgreSql",
+  "schemas": [
+    "public"
+  ],
+  "development": {
+    "scriptsFolder": "./schema-model"
+  },
+  "deployment": {
+    "flywayConfFiles": [
+      "./flyway.conf"
+    ],
+    "targetDatabases": [
+      {
+        "connectionProvider": {
+          "url": "jdbc:postgresql://h53gnhg7.instances.spawn.cc:31739/",
+          "username": "spawn_admin_cBuT",
+          "password": {
+            "name": "Flyway Desktop 526b2259-07e2-453b-9435-7f3c5c4cbc7e",
+            "secretType": "DefaultSecretStore"
+          },
+          "type": "UsernamePassword"
+        },
+        "schemas": [
+          "public"
+        ]
+      }
+    ]
+  },
+  "capabilities": {}
+}

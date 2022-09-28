@@ -1,0 +1,15 @@
+{
+  "objects": [
+    {
+      "objectType": "foreignKey",
+      "fullName": "\"public\".\"rental\".\"rental_staff_id_fkey\"",
+      "columns": [
+        "\"staff_id\""
+      ],
+      "referencedTable": "\"public\".\"staff\"",
+      "referencedColumns": [
+        "\"staff_id\""
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "objects": [
+    {
+      "objectType": "foreignKey",
+      "fullName": "\"public\".\"customer\".\"customer_store_id_fkey\"",
+      "columns": [
+        "\"store_id\""
+      ],
+      "referencedTable": "\"public\".\"store\"",
+      "referencedColumns": [
+        "\"store_id\""
+      ]
+    }
+  ]
+}

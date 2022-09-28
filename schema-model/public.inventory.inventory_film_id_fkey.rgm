@@ -1,0 +1,15 @@
+{
+  "objects": [
+    {
+      "objectType": "foreignKey",
+      "fullName": "\"public\".\"inventory\".\"inventory_film_id_fkey\"",
+      "columns": [
+        "\"film_id\""
+      ],
+      "referencedTable": "\"public\".\"film\"",
+      "referencedColumns": [
+        "\"film_id\""
+      ]
+    }
+  ]
+}

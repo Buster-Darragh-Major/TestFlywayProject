@@ -1,0 +1,15 @@
+{
+  "objects": [
+    {
+      "objectType": "foreignKey",
+      "fullName": "\"public\".\"address\".\"address_city_id_fkey\"",
+      "columns": [
+        "\"city_id\""
+      ],
+      "referencedTable": "\"public\".\"city\"",
+      "referencedColumns": [
+        "\"city_id\""
+      ]
+    }
+  ]
+}
