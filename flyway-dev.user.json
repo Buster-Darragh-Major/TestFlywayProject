@@ -1,0 +1,18 @@
+{
+  "version": "2.0",
+  "developmentDatabase": {
+    "connectionProvider": {
+      "url": "jdbc:sqlserver://localhost;instanceName=MSSQLSERVER01;databaseName=DemoDev;encrypt=false;integratedSecurity=true;trustServerCertificate=true",
+      "type": "UsernamePassword"
+    },
+    "displayName": "Development"
+  },
+  "deployment": {
+    "shadowDatabase": {
+      "connectionProvider": {
+        "url": "jdbc:sqlserver://localhost;instanceName=MSSQLSERVER01;databaseName=DemoDev_Shadow;encrypt=false;integratedSecurity=true;trustServerCertificate=true",
+        "type": "UsernamePassword"
+      }
+    }
+  }
+}
