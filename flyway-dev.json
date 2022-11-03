@@ -1,11 +1,8 @@
 {
   "version": "2.0",
-  "name": "pagila",
-  "id": "c926e11a-b344-4691-a6b5-6af3b3d9bab5",
-  "databaseType": "PostgreSql",
-  "schemas": [
-    "public"
-  ],
+  "name": "Rest of demo",
+  "id": "50ba3528-ce04-4a4d-8e0f-a63fada90c02",
+  "databaseType": "SqlServer",
   "development": {
     "scriptsFolder": "./schema-model"
   },
@@ -13,22 +10,24 @@
     "flywayConfFiles": [
       "./flyway.conf"
     ],
+    "generateUndoScripts": true,
     "targetDatabases": [
       {
         "connectionProvider": {
-          "url": "jdbc:postgresql://h53gnhg7.instances.spawn.cc:31739/",
-          "username": "spawn_admin_cBuT",
-          "password": {
-            "name": "Flyway Desktop 526b2259-07e2-453b-9435-7f3c5c4cbc7e",
-            "secretType": "DefaultSecretStore"
-          },
+          "url": "jdbc:sqlserver://localhost;instanceName=MSSQLSERVER01;databaseName=DemoTest;encrypt=false;integratedSecurity=true;trustServerCertificate=true",
           "type": "UsernamePassword"
         },
-        "schemas": [
-          "public"
-        ]
+        "schemas": [],
+        "displayName": "Test"
+      },
+      {
+        "connectionProvider": {
+          "url": "jdbc:sqlserver://localhost;instanceName=MSSQLSERVER01;databaseName=DemoProd;encrypt=false;integratedSecurity=true;trustServerCertificate=true",
+          "type": "UsernamePassword"
+        },
+        "schemas": [],
+        "displayName": "Prod"
       }
     ]
-  },
-  "capabilities": {}
+  }
 }
