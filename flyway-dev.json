@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "name": "Rest of demo",
+  "name": "Conflict Resolution Demo",
   "id": "50ba3528-ce04-4a4d-8e0f-a63fada90c02",
   "databaseType": "SqlServer",
   "development": {
