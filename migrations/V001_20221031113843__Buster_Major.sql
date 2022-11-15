@@ -4,6 +4,7 @@ SET ANSI_PADDING, ANSI_WARNINGS, CONCAT_NULL_YIELDS_NULL, ARITHABORT, QUOTED_IDE
 GO
 PRINT N'Creating [dbo].[User]'
 GO
+-- This is totally unrelated
 CREATE TABLE [dbo].[User]
 (
 [UserId] [int] NOT NULL IDENTITY(1, 1),
