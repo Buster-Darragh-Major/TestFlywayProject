@@ -5,7 +5,7 @@ GO
 PRINT N'Altering [dbo].[User]'
 GO
 -- Some different comment
--- Some comment about things
+-- Some comment about things yea
 ALTER TABLE [dbo].[User] ADD
 [Username] [nvarchar] (200) NULL
 GO
