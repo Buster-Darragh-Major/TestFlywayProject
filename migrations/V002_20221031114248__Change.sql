@@ -4,6 +4,9 @@ SET ANSI_PADDING, ANSI_WARNINGS, CONCAT_NULL_YIELDS_NULL, ARITHABORT, QUOTED_IDE
 GO
 PRINT N'Altering [dbo].[User]'
 GO
-ALTER TABLE [dbo].[User] DROP
-COLUMN [Username]
+-- Some different comment dfkskgfvhdsogfbvihjdlbvjidflbvnji
+-- Some other random comment bfdhsogbfdiho
+ALTER TABLE [dbo].[User] ADD
+[Username] [nvarchar] (200) NULL
 GO
+-- fdbhibhi
