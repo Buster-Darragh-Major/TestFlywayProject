@@ -1,0 +1,169 @@
+{
+  "individualResults": [
+    {
+      "schemaVersion": null,
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "001.20221031113843",
+          "rawVersion": "001_20221031113843",
+          "description": "Change",
+          "type": "SQL",
+          "installedOnUTC": "",
+          "state": "Pending",
+          "undoable": "Yes",
+          "filepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/V001_20221031113843__Change.sql",
+          "undoFilepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/U001_20221031113843__Change.sql",
+          "installedBy": "",
+          "executionTime": 0
+        },
+        {
+          "category": "Versioned",
+          "version": "002.20221031114248",
+          "rawVersion": "002_20221031114248",
+          "description": "Change",
+          "type": "SQL",
+          "installedOnUTC": "",
+          "state": "Pending",
+          "undoable": "Yes",
+          "filepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/V002_20221031114248__Change.sql",
+          "undoFilepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/U002_20221031114248__Change.sql",
+          "installedBy": "",
+          "executionTime": 0
+        },
+        {
+          "category": "Versioned",
+          "version": "003.20221031114248",
+          "rawVersion": "003_20221031114248",
+          "description": "Change",
+          "type": "SQL",
+          "installedOnUTC": "",
+          "state": "Pending",
+          "undoable": "No",
+          "filepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/V003_20221031114248__Change.sql",
+          "undoFilepath": "",
+          "installedBy": "",
+          "executionTime": 0
+        }
+      ],
+      "flywayVersion": "9.18.0",
+      "database": "",
+      "allSchemasEmpty": true,
+      "timestamp": "2023-05-25T10:22:09.216927",
+      "operation": "info",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "schemaVersion": null,
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "001.20221031113843",
+          "rawVersion": "001_20221031113843",
+          "description": "Change",
+          "type": "SQL",
+          "installedOnUTC": "",
+          "state": "Pending",
+          "undoable": "Yes",
+          "filepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/V001_20221031113843__Change.sql",
+          "undoFilepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/U001_20221031113843__Change.sql",
+          "installedBy": "",
+          "executionTime": 0
+        },
+        {
+          "category": "Versioned",
+          "version": "002.20221031114248",
+          "rawVersion": "002_20221031114248",
+          "description": "Change",
+          "type": "SQL",
+          "installedOnUTC": "",
+          "state": "Pending",
+          "undoable": "Yes",
+          "filepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/V002_20221031114248__Change.sql",
+          "undoFilepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/U002_20221031114248__Change.sql",
+          "installedBy": "",
+          "executionTime": 0
+        },
+        {
+          "category": "Versioned",
+          "version": "003.20221031114248",
+          "rawVersion": "003_20221031114248",
+          "description": "Change",
+          "type": "SQL",
+          "installedOnUTC": "",
+          "state": "Pending",
+          "undoable": "No",
+          "filepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/V003_20221031114248__Change.sql",
+          "undoFilepath": "",
+          "installedBy": "",
+          "executionTime": 0
+        }
+      ],
+      "flywayVersion": "9.18.0",
+      "database": "",
+      "allSchemasEmpty": true,
+      "timestamp": "2023-05-25T10:31:19.635545",
+      "operation": "info",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "schemaVersion": null,
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "001.20221031113843",
+          "rawVersion": "001_20221031113843",
+          "description": "Change",
+          "type": "SQL",
+          "installedOnUTC": "",
+          "state": "Pending",
+          "undoable": "Yes",
+          "filepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/V001_20221031113843__Change.sql",
+          "undoFilepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/U001_20221031113843__Change.sql",
+          "installedBy": "",
+          "executionTime": 0
+        },
+        {
+          "category": "Versioned",
+          "version": "002.20221031114248",
+          "rawVersion": "002_20221031114248",
+          "description": "Change",
+          "type": "SQL",
+          "installedOnUTC": "",
+          "state": "Pending",
+          "undoable": "Yes",
+          "filepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/V002_20221031114248__Change.sql",
+          "undoFilepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/U002_20221031114248__Change.sql",
+          "installedBy": "",
+          "executionTime": 0
+        },
+        {
+          "category": "Versioned",
+          "version": "003.20221031114248",
+          "rawVersion": "003_20221031114248",
+          "description": "Change",
+          "type": "SQL",
+          "installedOnUTC": "",
+          "state": "Pending",
+          "undoable": "No",
+          "filepath": "/Users/buster.major/Scratchspace/FWD Projects/TestFlywayProject/migrations/V003_20221031114248__Change.sql",
+          "undoFilepath": "",
+          "installedBy": "",
+          "executionTime": 0
+        }
+      ],
+      "flywayVersion": "9.18.0",
+      "database": "",
+      "allSchemasEmpty": true,
+      "timestamp": "2023-05-25T10:48:30.451452",
+      "operation": "info",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}
