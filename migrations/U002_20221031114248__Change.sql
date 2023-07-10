@@ -8,3 +8,4 @@ ALTER TABLE [dbo].[User] DROP
 COLUMN [Username]
 GO
 -- fdebhuvhu
+-- Buster doesn't know about this change yet
