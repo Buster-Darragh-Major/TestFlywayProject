@@ -4,5 +4,5 @@ SET ANSI_PADDING, ANSI_WARNINGS, CONCAT_NULL_YIELDS_NULL, ARITHABORT, QUOTED_IDE
 GO
 PRINT N'Dropping [dbo].[User]'
 GO
-DROP TABLE [dbo].[Usercvdesc]
+DROP TABLE [dbo].[Usercvdcdvfdvrfesc]
 GO
