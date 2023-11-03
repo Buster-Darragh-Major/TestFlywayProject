@@ -5,7 +5,7 @@ GO
 PRINT N'Creating [dbo].[User]'
 GO
 -- This is untotally unrelated
--- This is totally related
+-- This is totallyfdwferer related
 CREATE TABLE [dbo].[User]
 (
 [UserId] [int] NOT NULL IDENTITY(1, 1),
