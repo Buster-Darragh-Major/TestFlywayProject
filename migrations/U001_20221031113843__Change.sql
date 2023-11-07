@@ -5,5 +5,5 @@ GO
 # neivberibghirtbghi
 PRINT N'Dropping [dbo].[User]'
 GO
-DROP TABLE [dbo].[User]
+DROP TABLE [dbo].[Usercvdcdvfdvrfesc]
 GO
