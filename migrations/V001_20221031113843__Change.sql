@@ -4,15 +4,3 @@ SET ANSI_PADDING, ANSI_WARNINGS, CONCAT_NULL_YIELDS_NULL, ARITHABORT, QUOTED_IDE
 GO
 PRINT N'Creating [dbo].[User]'
 GO
--- This is untotally unrelated
--- This is totallyfdwferer related
-CREATE TABLE [dbo].[User]
-(
-[UserId] [int] NOT NULL IDENTITY(1, 1),
-[FirstName] [nvarchar] (200) NULL,
-[LastName] [nvarchar] (200) NULL,
-[DateOfBirth] [date] NULL
-)
-GO
--- fedhibhob
--- Some change
