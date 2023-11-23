@@ -14,9 +14,6 @@ CREATE TABLE [dbo].[User]
 [Reference9] [nvarchar] (50) NULL,
 [Reference10] [nvarchar] (50) NULL,
 [Reference11] [nvarchar] (50) NULL,
-[Reference12] [nvarchar] (50) NULL,
-[Reference13] [nvarchar] (50) NULL,
-[Reference14] [nvarchar] (50) NULL,
 [Reference15] [nvarchar] (50) NULL,
 [Reference16] [nvarchar] (50) NULL,
 [Reference2021] [nvarchar] (50) NULL
