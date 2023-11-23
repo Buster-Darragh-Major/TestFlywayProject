@@ -8,8 +8,6 @@ CREATE TABLE [dbo].[User]
 [Reference2] [nvarchar] (50) NULL,
 [Reference3] [nvarchar] (50) NULL,
 [Reference4] [nvarchar] (50) NULL,
-[Reference5] [nvarchar] (50) NULL,
-[Reference16] [nvarchar] (50) NULL,
 [Reference2021] [nvarchar] (50) NULL
 )
 GO
