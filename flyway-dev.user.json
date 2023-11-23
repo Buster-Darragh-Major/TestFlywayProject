@@ -2,8 +2,8 @@
   "version": "2.0",
   "developmentDatabase": {
     "connectionProvider": {
-      "url": "jdbc:sqlserver://localhost;instanceName=MSSQLSERVER01;databaseName=DemoDev;encrypt=false;integratedSecurity=true;trustServerCertificate=true",
-      "type": "UsernamePassword"
+      "type": "UsernamePassword",
+      "url": "jdbc:sqlserver://localhost;databaseName=DemoDev;encrypt=false;integratedSecurity=true;trustServerCertificate=true"
     },
     "displayName": "Development"
   },
