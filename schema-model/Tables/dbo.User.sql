@@ -9,9 +9,6 @@ CREATE TABLE [dbo].[User]
 [Reference3] [nvarchar] (50) NULL,
 [Reference4] [nvarchar] (50) NULL,
 [Reference5] [nvarchar] (50) NULL,
-[Reference7] [nvarchar] (50) NULL,
-[Reference8] [nvarchar] (50) NULL,
-
 [Reference16] [nvarchar] (50) NULL,
 [Reference2021] [nvarchar] (50) NULL
 )
