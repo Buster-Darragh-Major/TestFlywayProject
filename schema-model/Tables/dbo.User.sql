@@ -8,20 +8,6 @@ CREATE TABLE [dbo].[User]
 [Reference2] [nvarchar] (50) NULL,
 [Reference3] [nvarchar] (50) NULL,
 [Reference4] [nvarchar] (50) NULL,
-[Reference5] [nvarchar] (50) NULL,
-[Reference7] [nvarchar] (50) NULL,
-[Reference8] [nvarchar] (50) NULL,
-[Reference9] [nvarchar] (50) NULL,
-[Reference10] [nvarchar] (50) NULL,
-[Reference11] [nvarchar] (50) NULL,
-[Reference12] [nvarchar] (50) NULL,
-[Reference13] [nvarchar] (50) NULL,
-[Reference14] [nvarchar] (50) NULL,
-[Reference15] [nvarchar] (50) NULL,
-[Reference16] [nvarchar] (50) NULL,
-[Reference17] [nvarchar] (50) NULL,
-[Reference19] [nvarchar] (50) NULL,
-[Reference20] [nvarchar] (50) NULL,
 [Reference2021] [nvarchar] (50) NULL
 )
 GO
