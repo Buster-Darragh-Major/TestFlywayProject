@@ -2,14 +2,8 @@ id = "50ba3528-ce04-4a4d-8e0f-a63fada90c02"
 name = "Conflict Resolution Demo"
 databaseType = "SqlServer"
 
-[environments.test]
-url = "jdbc:sqlserver://localhost;instanceName=MSSQLSERVER01;databaseName=DemoTest;encrypt=false;integratedSecurity=true;trustServerCertificate=true"
-schemas = [ ]
-displayName = "Test"
-
 [environments.prod]
-url = "jdbc:sqlserver://localhost;instanceName=MSSQLSERVER01;databaseName=DemoProd;encrypt=false;integratedSecurity=true;trustServerCertificate=true"
-schemas = [ ]
+url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=FMS_TEST;encrypt=true;trustServerCertificate=true"
 displayName = "Prod"
 
 [flyway]
@@ -19,9 +13,8 @@ outOfOrder = true
 validateMigrationNaming = true
 defaultSchema = "dbo"
 
-  [flyway.plugins]
-    [flyway.plugins.clean]
-    mode = "all"
+[flyway.plugins.clean]
+mode = "all"
 
 [flywayDesktop]
 developmentEnvironment = "development"

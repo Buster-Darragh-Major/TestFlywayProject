@@ -1,13 +1,21 @@
+flywayDesktop = { }
+
 [environments.development]
-url = "jdbc:sqlserver://localhost;databaseName=DemoDev;encrypt=false;integratedSecurity=true;trustServerCertificate=true"
+url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=FMS;encrypt=true;trustServerCertificate=true"
+user = "sa"
+password = "${localSecret.Flyway Desktop 67564b6b-6eb7-4f23-800f-43ceb97f2ed0}"
 displayName = "Development"
 
 [environments.shadow]
-url = "jdbc:sqlserver://localhost;instanceName=MSSQLSERVER01;databaseName=DemoDev_Shadow;encrypt=false;integratedSecurity=true;trustServerCertificate=true"
+url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=FMS_SHADOW;encrypt=true;trustServerCertificate=true"
+user = "SA"
+password = "${localSecret.Flyway Desktop 4228255f-4dc4-4589-9da7-6790e11d4498}"
 displayName = "Shadow database"
 provisioner = "clean"
 
-[flywayDesktop]
+[environments.prod]
+user = "SA"
+password = "${localSecret.Flyway Desktop b7587e5f-7e9f-467e-b7f6-572ba127e105}"
 
 [redgateCompare]
 filterFile = "filter.rgf"
