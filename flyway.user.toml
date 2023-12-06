@@ -1,0 +1,13 @@
+[environments.development]
+url = "jdbc:sqlserver://localhost;databaseName=DemoDev;encrypt=false;integratedSecurity=true;trustServerCertificate=true"
+displayName = "Development"
+
+[environments.shadow]
+url = "jdbc:sqlserver://localhost;instanceName=MSSQLSERVER01;databaseName=DemoDev_Shadow;encrypt=false;integratedSecurity=true;trustServerCertificate=true"
+displayName = "Shadow database"
+provisioner = "clean"
+
+[flywayDesktop]
+
+[redgateCompare]
+filterFile = "filter.rgf"
