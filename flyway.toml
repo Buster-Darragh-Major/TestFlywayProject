@@ -6,6 +6,17 @@ databaseType = "SqlServer"
 url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=FMS_TEST;encrypt=true;trustServerCertificate=true"
 displayName = "Prod"
 
+[environments.target2]
+url = "jdbc:sqlserver://fwd-mfa-testing-buster.database.windows.net:1433;database=testing;"
+displayName = "AzureMFA"
+
+  [environments.target2.jdbcProperties]
+  accessToken = "${azureAdInteractive.token}"
+
+[environments.target2.resolvers.azureAdInteractive]
+tenantId = "125a26ca-db8f-4dc2-85ec-408758fb8b8e"
+clientId = "2b53a9e9-4516-4198-a90d-02e80641945c"
+
 [flyway]
 locations = [ "filesystem:migrations" ]
 mixed = true
