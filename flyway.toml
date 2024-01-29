@@ -24,8 +24,9 @@ schemaModel = "./schema-model"
   [flywayDesktop.generate]
   undoScripts = true
 
-[redgateCompare.sqlserver]
-filterFile = "Filter.scpf"
+[redgateCompare]
+  [redgateCompare.sqlserver]
+  filterFile = "Filter.scpf"
 
 [redgateCompare.sqlserver.options.behavior]
 addCreateOrAlterForRerunnableScripts = false
@@ -116,3 +117,14 @@ dropPrimaryKeysIndexesAndUniqueConstraints = false
 reseedIdentityColumns = false
 skipIntegrityChecksForForeignKeys = false
 transportClrDataTypesAsBinary = false
+
+  [[redgateCompare.staticDataTables]]
+  schema = "formengine"
+  table = "CustomComponent"
+  excludedColumns = [
+  "Deleted",
+  "Name",
+  "Description",
+  "ComponentsJson",
+  "FormBuilderId"
+]
