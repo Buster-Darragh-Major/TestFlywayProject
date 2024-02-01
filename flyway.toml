@@ -1,5 +1,5 @@
 id = "50ba3528-ce04-4a4d-8e0f-a63fada90c02"
-name = "Busters Project"
+name = "NewWorldDB"
 databaseType = "SqlServer"
 
 [environments.prod]
