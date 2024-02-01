@@ -18,6 +18,7 @@ CREATE TABLE [dbo]. [Employees]
 [Notes] [ntext] NULL,
 [ReportsTo] [int] NULL,
 [PhotoPath] [nvarchar] (255) NULL,
-[CellPhoneNumber] [int] NULL
+[CellPhoneNumber] [int] NULL,
+[TwitterID] [nvarchar] (50) NULL
 )
 GO
