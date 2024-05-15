@@ -3,7 +3,7 @@ name = "NewWorldDB"
 databaseType = "SqlServer"
 
 [environments.prod]
-url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=FMS_TEST;encrypt=true;trustServerCertificate=true"
+url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=Blank_Prod;encrypt=true;trustServerCertificate=true"
 displayName = "Prod"
 
 [environments.target2]
@@ -31,6 +31,7 @@ mode = "all"
 developmentEnvironment = "development"
 shadowEnvironment = "shadow"
 schemaModel = "./schema-model"
+enableMigrations = false
 
   [flywayDesktop.generate]
   undoScripts = true
@@ -128,14 +129,3 @@ dropPrimaryKeysIndexesAndUniqueConstraints = false
 reseedIdentityColumns = false
 skipIntegrityChecksForForeignKeys = false
 transportClrDataTypesAsBinary = false
-
-  [[redgateCompare.staticDataTables]]
-  schema = "formengine"
-  table = "CustomComponent"
-  excludedColumns = [
-  "Deleted",
-  "Name",
-  "Description",
-  "ComponentsJson",
-  "FormBuilderId"
-]

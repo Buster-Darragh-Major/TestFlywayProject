@@ -1,7 +1,7 @@
 flywayDesktop = { }
 
 [environments.development]
-url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=FMS;encrypt=true;trustServerCertificate=true"
+url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=Blank;encrypt=true;trustServerCertificate=true"
 user = "sa"
 password = "${localSecret.Flyway Desktop 67564b6b-6eb7-4f23-800f-43ceb97f2ed0}"
 displayName = "Development"
