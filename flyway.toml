@@ -31,14 +31,13 @@ mode = "all"
 developmentEnvironment = "development"
 shadowEnvironment = "shadow"
 schemaModel = "./schema-model"
-enableMigrations = false
+enableMigrations = true
 
   [flywayDesktop.generate]
   undoScripts = true
 
-[redgateCompare]
-  [redgateCompare.sqlserver]
-  filterFile = "Filter.scpf"
+[redgateCompare.sqlserver]
+filterFile = "Filter.scpf"
 
 [redgateCompare.sqlserver.options.behavior]
 addCreateOrAlterForRerunnableScripts = false
