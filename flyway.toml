@@ -3,7 +3,9 @@ name = "NewWorldDB"
 databaseType = "SqlServer"
 
 [environments.prod]
-url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=Blank_Prod;encrypt=true;trustServerCertificate=true"
+url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=thing_live;encrypt=true;trustServerCertificate=true"
+user = "SA"
+password = "MyPass@word"
 displayName = "Prod"
 
 [environments.target2]
