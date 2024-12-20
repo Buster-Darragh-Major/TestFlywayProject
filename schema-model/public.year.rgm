@@ -1,9 +1,0 @@
-{
-  "objects": [
-    {
-      "objectType": "domain",
-      "fullName": "\"public\".\"year\"",
-      "type": "int4"
-    }
-  ]
-}
