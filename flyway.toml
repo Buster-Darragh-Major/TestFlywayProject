@@ -25,7 +25,6 @@ mixed = true
 outOfOrder = true
 validateMigrationNaming = true
 defaultSchema = "dbo"
-encoding = "UTF-16BE"
 
 [flyway.plugins.clean]
 mode = "all"
