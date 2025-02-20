@@ -25,6 +25,7 @@ mixed = true
 outOfOrder = true
 validateMigrationNaming = true
 defaultSchema = "dbo"
+encoding = "UTF-16BE"
 
 [flyway.plugins.clean]
 mode = "all"
@@ -134,3 +135,7 @@ transportClrDataTypesAsBinary = false
 [[redgateCompare.staticDataTables]]
 schema = "dbo"
 table = "NewTable"
+
+[[redgateCompare.staticDataTables]]
+schema = "dbo"
+table = "Persons"
