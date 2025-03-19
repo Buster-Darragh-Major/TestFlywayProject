@@ -1,5 +1,5 @@
 id = "50ba3528-ce04-4a4d-8e0f-a63fada90c02"
-name = "NewWorldDB"
+name = "Test Project"
 databaseType = "SqlServer"
 
 [environments.prod]
@@ -39,11 +39,12 @@ enableMigrations = true
   [flywayDesktop.generate]
   undoScripts = true
 
-[redgateCompare.sqlserver]
-filterFile = "Filter.scpf"
+[redgateCompare]
+  [redgateCompare.sqlserver]
+  filterFile = "Filter.scpf"
 
 [redgateCompare.sqlserver.options.behavior]
-addCreateOrAlterForRerunnableScripts = false
+addCreateOrAlterForRerunnableScripts = true
 addDropAndCreateForRerunnableScripts = false
 addNoPopulationToFulltextIndexes = false
 addObjectExistenceChecks = false
@@ -132,10 +133,10 @@ reseedIdentityColumns = false
 skipIntegrityChecksForForeignKeys = false
 transportClrDataTypesAsBinary = false
 
-[[redgateCompare.staticDataTables]]
-schema = "dbo"
-table = "NewTable"
+  [[redgateCompare.staticDataTables]]
+  schema = "dbo"
+  table = "NewTable"
 
-[[redgateCompare.staticDataTables]]
-schema = "dbo"
-table = "Persons"
+  [[redgateCompare.staticDataTables]]
+  schema = "dbo"
+  table = "Persons"
