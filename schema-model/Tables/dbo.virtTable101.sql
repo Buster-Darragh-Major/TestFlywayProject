@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[virtTable101]
+(
+[ID] [int] NOT NULL,
+[Name] [nvarchar] (100) NULL
+)
+GO
+ALTER TABLE [dbo].[virtTable101] ADD CONSTRAINT [PK__virtTabl__3214EC27CD4F35D3] PRIMARY KEY CLUSTERED ([ID])
+GO
