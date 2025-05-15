@@ -1,3 +1,5 @@
+-- commetn
+
 CREATE TABLE [dbo].[Customers]
 (
 [col1] [int] NULL,
