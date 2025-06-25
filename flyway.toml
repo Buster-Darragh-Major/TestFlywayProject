@@ -5,7 +5,7 @@ databaseType = "SqlServer"
 [environments.prod]
 url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=thing_live;encrypt=true;trustServerCertificate=true"
 user = "SA"
-password = "MyPass@word"
+password = "abc123!!"
 displayName = "Prod"
 
 [environments.target2]
@@ -34,7 +34,7 @@ mode = "all"
 developmentEnvironment = "development"
 shadowEnvironment = "shadow"
 schemaModel = "./schema-model"
-enableMigrations = false
+enableMigrations = true
 
   [flywayDesktop.generate]
   undoScripts = true

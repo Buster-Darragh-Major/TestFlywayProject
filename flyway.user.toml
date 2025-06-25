@@ -3,13 +3,13 @@ flywayDesktop = { }
 [environments.development]
 url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=thing;encrypt=true;trustServerCertificate=true"
 user = "sa"
-password = "MyPass@word"
+password = "abc123!!"
 displayName = "Development"
 
 [environments.shadow]
 url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=thing_shadow;encrypt=true;trustServerCertificate=true"
 user = "SA"
-password = "MyPass@word"
+password = "abc123!!"
 displayName = "Shadow database"
 provisioner = "clean"
 
