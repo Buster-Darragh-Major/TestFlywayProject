@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<NamedFilter version="1" type="SQLCompareFilter">
-  <FilterName>Filtegfdsgfdsr</FilterName>
-  <Filter version="1" type="DifferenceFilter">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NamedFilter type="SQLCompareFilter" version="1">
+  <FilterName>Flyway Desktop filter</FilterName>
+  <Filter type="DifferenceFilter" version="1">
     <FilterCaseSensitive>False</FilterCaseSensitive>
     <Filters version="1">
       <None version="1">
@@ -118,11 +118,11 @@
       </Synonym>
       <Table version="1">
         <Include>True</Include>
-        <Expression>TRUE</Expression>
+        <Expression/>
       </Table>
       <User version="1">
         <Include>True</Include>
-        <Expression />
+        <Expression>TRUE</Expression>
       </User>
       <UserDefinedType version="1">
         <Include>True</Include>
