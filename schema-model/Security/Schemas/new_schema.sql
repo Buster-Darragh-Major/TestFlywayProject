@@ -1,3 +1,0 @@
-CREATE SCHEMA [new_schema]
-AUTHORIZATION [dbo]
-GO

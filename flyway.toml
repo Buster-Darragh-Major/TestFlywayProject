@@ -139,3 +139,7 @@ table = "NewTable"
 [[redgateCompare.staticDataTables]]
 schema = "dbo"
 table = "Persons"
+
+[[redgateCompare.staticDataTables]]
+schema = "dbo"
+table = "History"
