@@ -19,6 +19,13 @@ displayName = "AzureMFA"
 tenantId = "125a26ca-db8f-4dc2-85ec-408758fb8b8e"
 clientId = "2b53a9e9-4516-4198-a90d-02e80641945c"
 
+[environments.shadow]
+url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=thing_shadow;encrypt=true;trustServerCertificate=true"
+user = "SA"
+password = "abc123!!"
+displayName = "Shadow database"
+provisioner = "clean"
+
 [flyway]
 locations = [ "filesystem:migrations" ]
 mixed = true

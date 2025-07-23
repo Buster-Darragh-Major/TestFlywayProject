@@ -6,12 +6,5 @@ user = "sa"
 password = "abc123!!"
 displayName = "Development"
 
-[environments.shadow]
-url = "jdbc:sqlserver://localhost:1433;authentication=sqlPassword;databaseName=thing_shadow;encrypt=true;trustServerCertificate=true"
-user = "SA"
-password = "abc123!!"
-displayName = "Shadow database"
-provisioner = "clean"
-
 [redgateCompare]
 filterFile = "filter.rgf"
