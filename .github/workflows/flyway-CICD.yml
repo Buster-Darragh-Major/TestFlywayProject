@@ -124,6 +124,7 @@ jobs:
     runs-on: "self-hosted" # Options - self-hosted/ubuntu-latest/windows-latest (See here for more details on GitHub hosted runners - https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners)
     environment: 'prod'
     if: ${{ true }} #Set this variable to false to temporarily disable the job
+    needs: build
     env:
       stage: 'Prod'
       DATABASE_NAME: "thing_live"
