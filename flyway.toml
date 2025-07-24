@@ -46,8 +46,9 @@ enableMigrations = true
   [flywayDesktop.generate]
   undoScripts = true
 
-[redgateCompare.sqlserver]
-filterFile = "Filter.scpf"
+[redgateCompare]
+  [redgateCompare.sqlserver]
+  filterFile = "Filter.scpf"
 
 [redgateCompare.sqlserver.options.behavior]
 addCreateOrAlterForRerunnableScripts = true
@@ -139,14 +140,6 @@ reseedIdentityColumns = false
 skipIntegrityChecksForForeignKeys = false
 transportClrDataTypesAsBinary = false
 
-[[redgateCompare.staticDataTables]]
-schema = "dbo"
-table = "NewTable"
-
-[[redgateCompare.staticDataTables]]
-schema = "dbo"
-table = "Persons"
-
-[[redgateCompare.staticDataTables]]
-schema = "dbo"
-table = "History"
+  [[redgateCompare.staticDataTables]]
+  schema = "dbo"
+  table = "History"
